@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:align-items="http://www.w3.org/1999/xhtml"
+      xmlns:vertical-align="http://www.w3.org/1999/xhtml">
+<head>
+  <title th:text="${title}"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body style="background-image: url(/img/coservatoria.png); background-size: cover">
+<heder th:insert="blocks/header :: header"></heder>
+<div class="container mt-5">
+  <!--    <h1 th:text="${title}"/>-->
+  <h2 style="color: aliceblue">Это главная прогулочная улица<br>Здесь находятся различные кафе и магазины.
+    Проводятся различные мероприятия и тут просто приятно пройтись до набережной реки Волга</h2>
+  <h2></h2>
+
+  <style>.manejImg {background-image: url(/img/Manej.png); background-position: center;background-size:cover; background-repeat:repeat-x;
+    border-radius:10px;min-height:400px;box-shadow: 4px 7px 12px 5px #727282;}.titleRub, .descriptionRub{background-color:rgba(106,96,91,0.4);}
+  </style>
+  <span itemscope="" itemtype="http://schema.org/ImageObject" style="display: none;"><p itemprop="name"></p>
+        <img src="https://www.tursar.ru/images/cat_5.jpg" itemprop="contentUrl">
+    </span>
+  <div class="manejImg">
+    <div class="titleRub"><h1 itemprop="name">ТЦ "Манеж"</h1></div>
+    <div class="descriptionRub" itemprop="description">
+      <h4>Здесь находятся множество магазинов и фудкортов.</h4>
+    </div>
+  </div>
+  <br>
+  <style>.duranImg {background-image: url(/img/duran.png); background-position: center;background-size:cover; background-repeat:repeat-x;
+    border-radius:10px;min-height:400px;box-shadow: 4px 7px 12px 5px #727282;}.titleRub, .descriptionRub{background-color:rgba(106,96,91,0.4);}
+  </style>
+  <span itemscope="" itemtype="http://schema.org/ImageObject" style="display: none;"><p itemprop="name"></p>
+        <img src="https://www.tursar.ru/images/cat_5.jpg" itemprop="contentUrl">
+    </span>
+  <div class="duranImg">
+    <div class="titleRub"><h1 itemprop="name">Кафе-ресторан Duran</h1></div>
+    <div class="descriptionRub" itemprop="description">
+      <h4>Дюране на Проспекте самая большая летняя веранда в городе с видом на фонтан Мелодия, Консерваторию и парк Липки.
+        В ресторане вы найдете роллы, стейки, хинкали, бургеры, брискет, салаты, закуски, десерты, коктейли и многое другое.
+        И все это с уникальной подачей.</h4>
+    </div>
+  </div>
+  <br>
+  <style>.pitnicaImg{background-image: url(/img/pitnica.jpg); background-position: center;background-size:cover; background-repeat:repeat-x;
+    border-radius:10px;min-height:400px;box-shadow: 4px 7px 12px 5px #727282;}.titleRub, .descriptionRub{background-color:rgba(106,96,91,0.4);}
+  </style>
+  <span itemscope="" itemtype="http://schema.org/ImageObject" style="display: none;"><p itemprop="name"></p>
+        <img src="https://www.tursar.ru/images/cat_5.jpg" itemprop="contentUrl">
+    </span>
+  <div class="pitnicaImg">
+    <div class="titleRub"><h1 itemprop="name" style="color: white">Чешская пивница Pitnica</h1></div>
+    <div class="descriptionRub" itemprop="description">
+      <h4 style="color: white; margin-top: 150px">PITNICA – это федеральная сеть демократичных чешских пивниц, сочетающая классические европейские рецепты пива и разнообразие вкусовых сортов.
+        Здесь собственное производство настоек и наливок, а среди блюд как традиционные, так и современные блюда пивной кухни Чехии, Германии и Бельгии.</h4>
+    </div>
+  </div>
+  <br>
+  <style>.childrens_worldImg{background-image: url(/img/childrens_world.jpg); background-position: center;background-size:cover; background-repeat:repeat-x;
+    border-radius:10px;min-height:400px;box-shadow: 4px 7px 12px 5px #727282;}.titleRub, .descriptionRub{background-color:rgba(106,96,91,0.4);}
+  </style>
+  <span itemscope="" itemtype="http://schema.org/ImageObject" style="display: none;"><p itemprop="name"></p>
+        <img src="https://www.tursar.ru/images/cat_5.jpg" itemprop="contentUrl">
+    </span>
+  <div class="childrens_worldImg">
+    <div class="titleRub"><h1 itemprop="name" style="color: white">Детский мир</h1></div>
+    <div class="descriptionRub" itemprop="description">
+      <h4 style="color: black; margin-top: 150px">Это самый известный магазин игрушек! Самый заветный магазмн всех ребятишек!</h4>
+    </div>
+  </div>
+  <br>
+  <style>.circusdImg{background-image: url(/img/circus.png); background-position: center;background-size:cover; background-repeat:repeat-x;
+    border-radius:10px;min-height:400px;box-shadow: 4px 7px 12px 5px #727282;}.titleRub, .descriptionRub{background-color:rgba(106,96,91,0.4);}
+  </style>
+  <span itemscope="" itemtype="http://schema.org/ImageObject" style="display: none;"><p itemprop="name"></p>
+        <img src="https://www.tursar.ru/images/cat_5.jpg" itemprop="contentUrl">
+    </span>
+  <div class="circusdImg">
+    <div class="titleRub"><h1 itemprop="name" style="color: white">Цирк</h1></div>
+    <div class="descriptionRub" itemprop="description">
+      <h4 style="color: black; margin-top: 150px">Именно в нашем городе русский цирк по-настоящему встал на ноги, получил первое и высокое признание.
+        Здание, выстроенное братьями Никитиными, простояло до 1928 года. Сейчас на этом месте расположен кинотеатр «Победа».</h4>
+    </div>
+  </div>
+  <br>
+
+</div>
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>
